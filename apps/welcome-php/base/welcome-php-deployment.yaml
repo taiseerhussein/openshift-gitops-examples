@@ -5,6 +5,7 @@ metadata:
     argocd.argoproj.io/sync-wave: "1"
   labels:
     app: welcome-php
+    test: test1
   name: welcome-php
 spec:
   replicas: 1
