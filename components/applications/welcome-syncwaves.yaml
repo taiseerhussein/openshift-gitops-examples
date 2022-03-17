@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: welcome-syncwaves
-  namespace: openshift-gitops
+  namespace: argocd
 spec:
   destination:
     namespace: welcome
