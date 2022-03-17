@@ -14,7 +14,7 @@ spec:
         - /bin/bash
         - -c
         - |
-          sleep 15
+          sleep 10
         image: registry.access.redhat.com/ubi8/ubi:latest
         imagePullPolicy: IfNotPresent
         name: welcome-sleep-job
