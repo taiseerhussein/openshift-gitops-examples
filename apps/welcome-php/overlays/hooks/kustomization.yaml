@@ -3,5 +3,4 @@ kind: Kustomization
 namespace: welcome-hooks
 resources:
 - ../../base
-- welcome-php-ns.yaml
 - welcome-php-presync-job.yaml
