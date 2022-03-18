@@ -3,6 +3,8 @@ kind: ApplicationSet
 metadata:
   name: welcome-hooks-2
   namespace: argocd
+  labels:
+    app: test
 spec:
   generators:
     - list:
