@@ -3,4 +3,4 @@ kind: Kustomization
 namespace: argocd
 resources:
 - ../../base
-- welcome-php-presync-job.yaml
+- welcome-hooks.yaml
