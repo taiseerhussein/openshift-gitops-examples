@@ -3,6 +3,8 @@ kind: ApplicationSet
 metadata:
   name: welcome-hooks-2
   namespace: argocd
+  labels:
+    app: test
 spec:
   generators:
     - list:
@@ -20,7 +22,7 @@ spec:
       source:
         path: apps/welcome-php/overlays/hooks
         repoURL: 'https://github.com/taiseerhussein/openshift-gitops-examples.git'
-        targetRevision: 2.0.1
+        targetRevision: 2.0.2
       syncPolicy:
         automated:
           prune: true
