@@ -2,9 +2,6 @@ apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
   name: welcome-hooks-2
-  namespace: argocd
-  labels:
-    app: test
 spec:
   template:
     spec:
